@@ -1,0 +1,146 @@
+div.contenedor{
+    width: 100%;
+    border: 1px solid gray;
+}
+
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+
+
+
+nav ul {
+    list-style-type: none; /* elimina viñeta*/
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    text-align: right;
+}
+
+
+nav ul a {
+    text-decoration: none;
+    display: block;
+}
+
+
+
+li{ 
+  float: left;
+}
+li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover { /*Cuando pasa el mouse sobre el elemento*/
+  background-color: #f1d517;
+  color:#333;
+  font-size:20px;
+}
+
+li a:active { /*Cuando da click en el mouse */
+  background-color: #f1d517;
+  font-size: 22px;
+}
+
+
+html,  body{
+  margin:0;
+  height:100%;
+}
+
+.bg-container{
+  background-image: url("../img/bg.jpg");
+  width:100%;
+  height:100%;
+  background-position: center;
+  background-position: no-repeat;
+  background-size: cover;
+}
+
+
+
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+    background-color: #cccccc;
+    background-repeat:repeat-y; /*no-repeat;*/
+   
+}
+
+div.desc{
+  background-color: rgb(2, 55, 109);
+  color: white;
+  border-radius: 20px;
+}
+
+p{
+  margin-left: 300px;
+}
+
+h1{
+  text-align:center;
+  font-size: 150%;
+}
+
+footer{
+  background-color: rgb(62, 148, 247);
+  font-style: bold;
+  font-size:larger;
+  color:black;
+  float: left;
+  border-radius: 20px;
+}
+
+#mexico{
+  color:green;
+}
+
+#londres{
+  color:red;
+}
+
+#paris{
+  color:blue;
+}
+
+#tokyo{
+  color:FireBrick;
+}
+
+#alemania{
+  color:#9c8700;
+}
+
+.banderaMex{
+  background-image: url("../img/mexico.jpg");
+  background-repeat: no-repeat;  
+}
+.banderaLon{
+  background-image: url("../img/londres.jpg");
+  background-repeat: no-repeat;
+}
+
+.banderaPar{
+  background-image: url("../img/paris.jpg");
+  background-repeat: no-repeat;
+}
+.banderaTok{
+  background-image: url("../img/tokyo.jpg");
+  background-repeat: no-repeat;
+}
+.banderaAl{
+  background-image: url("../img/alemania.png");
+  background-repeat: no-repeat;
+  
+}

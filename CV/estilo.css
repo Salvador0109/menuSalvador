@@ -1,0 +1,91 @@
+ body, html{
+   background-color: rgb(64, 64, 83);
+ }
+ header{
+     text-align: center;
+     background: rgb(64, 64, 83);
+     color: rgb(255, 255, 255);
+     font-size: 40px;
+
+ }
+
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(64, 64, 83);
+    text-align: rigth;
+  }
+
+
+nav li{
+  display: inline-block;
+}
+
+nav ul a{
+    text-decoration: none;
+    display: block;
+}
+
+
+  li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 40px;
+    text-decoration: none;
+  }
+
+li a:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size:18px;
+    border-radius: 20px;
+  }
+
+  li a:active{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size:17px;
+    border-style: inset;
+    border-color:white;
+
+  }
+
+
+  li:last-child{
+    float: right;
+    color:white;
+    }
+
+  .cuerpo{
+    background-color: rgba(213, 197, 255, 0.603);
+    float: center;
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+  }
+
+  img{
+    border-radius: 20px;
+    width: 200px;
+    height: 320px;
+    float: center;
+
+  }
+
+
+
+  legend{
+    font-size:25px ;
+  }
+  p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+
+
+
+  
